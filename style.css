@@ -1,0 +1,100 @@
+.profile {
+  padding-top: 2rem;
+  background-color: #eeff00;
+}
+
+.pre {
+  text-align: justify;
+}
+
+.Server {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Server2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ldes {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.sosmed {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ins {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.dis {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+@media (max-width: 1200px) {
+  .Server2 {
+    flex-direction: column;
+    padding: 30px;
+  }
+  .ldes {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Server2 {
+    padding: 20px;
+  }
+  .ldes {
+    font-size: 20px;
+  }
+  .sosmed {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ins,
+  .dis {
+    font-size: 35px;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .Server2 {
+    padding: 10px;
+  }
+  .ldes {
+    font-size: 18px;
+  }
+  .ins,
+  .dis {
+    font-size: 30px;
+  }
+}

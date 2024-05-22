@@ -1,0 +1,22 @@
+.profile {
+  padding-top: 2rem;
+  background-color: #eeff00;
+}
+
+.cal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.cal > a {
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  border: 3px solid black;
+  margin: 20px 500px;
+  width: 100%;
+  font-size: 25px;
+}
